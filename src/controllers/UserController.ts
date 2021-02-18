@@ -1,8 +1,7 @@
-import {UserModel} from '@models/UserModel';
+import { UserModel } from '@models/UserModel'
 
-
-export class UserController{
-    teste(){
-        const user = new UserModel()
-    }
+export class UserController {
+  teste () {
+    const user = new UserModel()
+  }
 }

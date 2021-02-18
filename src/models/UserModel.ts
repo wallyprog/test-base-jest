@@ -1,4 +1,7 @@
 export class UserModel {
-     name: string;
-     email: string; 
+      name: string;
+
+      constructor (named:string) {
+        this.name = named
+      }
 }
