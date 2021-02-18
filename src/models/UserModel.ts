@@ -1,7 +1,7 @@
 export class UserModel {
-      name: string;
+      name:string
 
-      constructor (named:string) {
-        this.name = named
+      constructor (name:string) {
+        this.name = name
       }
 }
