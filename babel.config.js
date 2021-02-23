@@ -19,8 +19,7 @@ module.exports = {
         '@views': './src/views'
       }
     }
-
-    ]
+    ],["@babel/plugin-proposal-decorators", { "legacy": true }]
   ]
   // ,
   // ignore: [
